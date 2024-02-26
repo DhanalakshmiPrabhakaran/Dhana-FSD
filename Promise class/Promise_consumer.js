@@ -1,0 +1,1 @@
+let promiseObj = new Promise((resolve, reject) => {console.log("Getting name from DB...")})
