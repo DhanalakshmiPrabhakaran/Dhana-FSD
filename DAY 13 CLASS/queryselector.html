@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector vs Query Selector All</title>
+</head>
+<body>
+    
+    <div id="container" class="red">
+        <h1>Query Selector vs Query Selector All</h1>
+        <p>Query Selector</p>
+        <p>Query Selector All</p>
+    
+        <div id="aside" class="green">
+        <h2>Sub Header</h2>
+        <P>All about References</P>
+        </div>
+
+        <ul class="list green">
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+
+        </ul>
+    </div>
+    <script>
+       // let container=document.querySelector('#container');
+        //console.log(container);
+
+        //let container=document.querySelector('#aside');
+        //console.log(container);
+
+        //to select class
+        //let container=document.querySelector('.red');
+        //console.log(container);
+
+        //let container= document.querySelector('.green');
+        //console.log(container);
+
+        let container= document.querySelectorAll('.green');
+       // console.log(container);
+    //   container.forEach(node=>{
+       // for(let i=0; i<node.children.length; i++){
+            //console.log(node.children[i]);
+
+      //  }
+      // });
+
+        //container.forEach(node=>{
+        //    console.log(node.innerHTML);
+        //});
+
+        let aside=document.querySelector('#aside');
+        aside.innerHTML='<a href="https://www.google.com">visit google.com</a>'
+        console.log(aside.innerHTML);
+
+        aside.innerHTML+= '<p>Hi prabha</p>';
+        
+
+
+    </script>
+
+
+</body>
+</html>

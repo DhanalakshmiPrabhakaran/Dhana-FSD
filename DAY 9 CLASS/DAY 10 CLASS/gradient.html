@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient</title>
+</head>
+<body>
+    <div class="linear-gradient">
+        <div class="radial-gradient"></div>
+
+    </div>
+    <style>
+        .linear-gradient{
+                height: 200px;
+                /*to right,to left,to bottom,to top */
+               /* background: linear-gradient(to right,red,yellow,green);*/
+               
+               /*diagonally*/
+               /*background: linear-gradient(to top left,red, yellow,orange,blue,green);*/
+               /*transparency*/
+               background: linear-gradient(to top left, rgba(255,0,0,0.1), rgba(255,0,0,0.1));
+
+
+       /* .radial-gradient{
+            height:500px;
+            background:radial-gradient(circle,red,yellow,green)
+        }*/
+        /*.radial-gradient{
+            height: 500px;
+            background: radial-gradient(ellipse,red,yellow,green,blue);
+        }*/
+        .radial-gradient{
+            height: 500px;
+            background: radial-gradient(75% 25% at 75% 25%, yellow,blue);
+        }
+
+        }
+    </style>
+    
+</body>
+</html>

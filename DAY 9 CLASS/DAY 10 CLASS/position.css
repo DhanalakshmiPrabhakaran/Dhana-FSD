@@ -1,0 +1,29 @@
+.fixed-header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: blueviolet;
+    color:bisque;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    padding-top: 100px;
+}
+main
+{
+    height: 2000px;
+}
+
+sticky-nav{
+    position:sticky;
+    top:0px;
+    background-color:antiquewhite;
+    color:bisque;
+    padding:20px;
+}
+.sticky-nav ul{
+    list-style-type: none;
+    margin:0;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM TASKS</title>
+</head>
+<body>
+    <script>
+        //Create a div element with a class of "container" and append it to the body.
+
+        let container = document.createElement('div');
+        container.setAttribute('class','container');
+        document.body.appendChild(container);
+
+        let h1=document.createElement('h1');
+        h1.textContent='DOM Tasks';
+        container.appendChild(h1);
+
+        let p=document.createElement('p');
+        p.textContent='All DOM tasks will be added here!';
+        container.appendChild(p);
+
+        let button=document.createElement('button');
+        button.textContent="Click Me!";
+        container.appendChild(button);
+
+        let list= document.createElement('ul');
+        list.setAttribute('class','list');
+        container.appendChild(list);
+
+        for(let i=1; i<=5; i++){
+            let item= document.createElement('li');
+            item.textContent='list item';
+            list.appendChild(item);
+        }
+
+
+
+
+
+
+
+    </script>
+        
+    
+</body>
+</html>

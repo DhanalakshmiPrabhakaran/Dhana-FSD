@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+</head>
+<body>
+    <a href="https://google.com" class="google link">visit google.com</a>
+    <a href="https://facebook.com"class="facebook link">visit facebook.com</a>
+    <button>Hover over me</button>
+    <input="text"
+    />
+    <style>
+        a:link {
+        color: green;    
+        }
+        a:visited{
+            color:red;
+        }
+        a:hover{
+            color:dodgerblue;
+            border: 1px dotted black;
+            padding: 4px;
+        }
+        a:active{
+            color:yellow;
+        }
+        button:hover{
+            background:white;
+            border: 1px solid lightgrey;
+        }
+        button:active{
+            color:yellow;
+        }
+        button{
+            border-radius:6px;
+        }
+        input:focus{
+            border-color:aquamarine;
+            border:3px solid rgb(255,127,127);
+            background-color: bisque;
+        }
+        .google link:hover{
+            color:red;
+        }
+        .facebook link:hover{
+            color:green;
+        }
+
+
+
+
+    </style>
+</body>
+</html>
